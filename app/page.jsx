@@ -2,4 +2,4 @@ const Home = () => {
     return <div>page</div>;
 };
 
-export default page;
+export default Home;
