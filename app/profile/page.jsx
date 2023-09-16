@@ -16,7 +16,7 @@ const MyProfile = () => {
             const data = await response.json();
             setPosts(data);
         };
-        fetchPosts();
+        if (session?.user.id) fetchPosts();
     }, []);
     const handleEdit = () => {};
     const handleDelete = async () => {};
