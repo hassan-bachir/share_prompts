@@ -17,26 +17,29 @@ const PromptCardList = ({ data, handleTagClick }) => {
         </div>
     );
 };
+
 const Feed = () => {
-    const [posts, setPosts] = useState([]);
+    const [allPosts, setAllPosts] = useState([]);
 
     // Search states
     const [searchText, setSearchText] = useState("");
     const [searchTimeout, setSearchTimeout] = useState(null);
     const [searchedResults, setSearchedResults] = useState([]);
 
+    const fetchPosts = async () => {
+        const response = await fetch("/api/prompt");
+        const data = await response.json();
+
+        setAllPosts(data);
+    };
+
     useEffect(() => {
-        const fetchPosts = async () => {
-            const response = await fetch("/api/prompt");
-            const data = await response.json();
-            setPosts(data);
-        };
         fetchPosts();
     }, []);
 
     const filterPrompts = (searchtext) => {
         const regex = new RegExp(searchtext, "i"); // 'i' flag for case-insensitive search
-        return posts.filter(
+        return allPosts.filter(
             (item) =>
                 regex.test(item.creator.username) ||
                 regex.test(item.tag) ||
@@ -69,11 +72,11 @@ const Feed = () => {
             <form className="relative w-full flex-center">
                 <input
                     type="text"
-                    placeholder="search for a tag or username"
+                    placeholder="Search for a tag or a username"
                     value={searchText}
                     onChange={handleSearchChange}
                     required
-                    className="search_input peer "
+                    className="search_input peer"
                 />
             </form>
 
@@ -84,7 +87,10 @@ const Feed = () => {
                     handleTagClick={handleTagClick}
                 />
             ) : (
-                <PromptCardList data={posts} handleTagClick={handleTagClick} />
+                <PromptCardList
+                    data={allPosts}
+                    handleTagClick={handleTagClick}
+                />
             )}
         </section>
     );
