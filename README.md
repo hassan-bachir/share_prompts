@@ -37,15 +37,23 @@
 
 ### User Screens
 
-| Welcome screen                                      | Advisor screen                                     | Register screen                                  | Login screen                                          |
-| --------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------ | ----------------------------------------------------- |
-| ![Landing](./readme/implementation/welcome.PNG)     | ![fsdaf](./readme/implementation/advisor.PNG)      | ![fsdaf](./readme/implementation/register.PNG)   | ![fsdaf](./readme/implementation/login.PNG)           |
-| Home screen                                         | Wallet Screen                                      | Update Screen                                    | Expense Screen                                        |
-| ![Landing](./readme/implementation/home.PNG)        | ![fsdaf](./readme/implementation/wallet.PNG)       | ![fsdaf](./readme/implementation/add_income.PNG) | ![fsdaf](./readme/implementation/add_expense.PNG)     |
-| Advisor screen                                      | Advisor Screen                                     | Calender Screen                                  | Calender Screen                                       |
-| ![Landing](./readme/implementation/bad_advisor.jpg) | ![fsdaf](./readme/implementation/good_advisor.PNG) | ![fsdaf](./readme/implementation/calender1.PNG)  | ![fsdaf](./readme/implementation/calender2.PNG)       |
-| Budget screen                                       | Goals Screen                                       | Admin Screen                                     | Wallet settings Screen                                |
-| ![Landing](./readme/implementation/Budget.PNG)      | ![fsdaf](./readme/implementation/goals.PNG)        | ![fsdaf](./readme/implementation/admin.PNG)      | ![fsdaf](./readme/implementation/Wallet_settings.PNG) |
+| Welcome                                       | Screen 2                                      |
+| --------------------------------------------- | -------------------------------------------- |
+| ![Welcome](./readme/implementation/Welcome.PNG) | ![Advisor](./readme/implementation/advisor.PNG) |
+
+| Screen 3                                     | Screen 4                                      |
+| ------------------------------------------- | -------------------------------------------- |
+| ![Register](./readme/implementation/register.PNG) | ![Login](./readme/implementation/login.PNG)     |
+
+| Screen 5                                     | Screen 6                                      |
+| ------------------------------------------- | -------------------------------------------- |
+| ![Home](./readme/implementation/home.PNG)    | ![Wallet](./readme/implementation/wallet.PNG)  |
+
+| Screen 7                                     | Screen 8                                      |
+| ------------------------------------------- | -------------------------------------------- |
+| ![Update](./readme/implementation/add_income.PNG) | ![Expense](./readme/implementation/add_expense.PNG) |
+
+
 
 <br><br>
 
