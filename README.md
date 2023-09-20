@@ -27,22 +27,6 @@
    As a user, I want to view and edit my profile information.<br>
    As a user, I want to upload or change my profile picture.<br>
 
-<!-- Prototyping -->
-<img src="./readme/title3.svg"/>
-
-> We designed Wallii using wireframes and mockups, iterating on the design until we reached the ideal layout for easy navigation and a seamless user experience.
-
-### Wireframes
-
-| Wallets WireFrame                           | Advisor WireFrame                             | Transactions WireFrame                     | Login WireFrame                           |
-| ------------------------------------------- | --------------------------------------------- | ------------------------------------------ | ----------------------------------------- |
-| ![Welcome](./readme/wireframes/landing.png) | ![Advisor](./readme/wireframes/register1.png) | ![SignUp1](./readme/wireframes/wallet.png) | ![SignUp2](./readme/wireframes/login.png) |
-
-### Mockups
-
-| Welcome Mockup                                        | Login Mockup                                        | Expense Mockup                                    | Wallet Mockup                                        |
-| ----------------------------------------------------- | --------------------------------------------------- | ------------------------------------------------- | ---------------------------------------------------- |
-| ![Welcome](./readme/implementation/mockupwelcome.png) | ![Advisor](./readme/implementation/mockuplogin.png) | ![SignUp1](./readme/implementation/mockupadd.png) | ![SignUp2](./readme/implementation/mockuowallet.png) |
 
 <br><br>
 
@@ -50,12 +34,6 @@
 <img src="./readme/title4.svg"/>
 
 > Using the wireframes and mockups as a guide, we implemented the Wallii app with the following features:
-
-### UX Demo:
-
-| Welcome stack                              | login and expense                      | wallet options                         | advisor demo                                 |
-| ------------------------------------------ | -------------------------------------- | -------------------------------------- | -------------------------------------------- |
-| ![Landing](./readme/gifs/signup-login.gif) | ![fsdaf](./readme/gifs/login-trim.gif) | ![fsdaf](./readme/gifs/bottom-tab.gif) | ![fsdaf](./readme/gifs/rejected-expense.gif) |
 
 ### User Screens
 
