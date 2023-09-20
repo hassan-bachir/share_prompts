@@ -78,12 +78,16 @@
 <!-- Tech stack -->
 <img src="./readme/title5.svg"/>
 
-### Wallii is built using the following technologies:
+### SharePrompts is built using the following technologies:
 
 -   🚨 SharePrompts was built using Next.js for both the Front-end and the Back-end.
--   For the interface Tailw
--   The app features custom animations and transitions to enhance the user experience and make it feel more fluid and natural.
+-   For the interface TailwindCSS was used with the help of some of my styling and fonts
 -   To facilitate seamless communication between the frontend and backend, the app uses RESTful APIs and JSON data exchange formats.
--   Wallii offers robust security features to protect user data and ensure the privacy of their information.
+-   SharePrompts offers robust security features to protect user data and ensure the privacy of their information.
 -   The app features a powerful search functionality that allows users to easily find what they're looking for within the app's content.
--   Wallii offers a range of customization options, allowing users to personalize their experience and tailor the app to their preferences.
+-   SharePrompts offers a range of customization options, allowing users to personalize their experience and tailor the app to their preferences.
+
+
+
+
+
